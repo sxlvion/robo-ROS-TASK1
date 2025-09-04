@@ -1,0 +1,41 @@
+[0.462s] Invoking command in '/home/parthip/ros2_ws/src/number_pubsub': PYTHONPATH=/home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/number_pubsub build --build-base /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build install --record /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/install.log --single-version-externally-managed install_data
+[0.615s] running egg_info
+[0.615s] creating build/number_pubsub/number_pubsub.egg-info
+[0.615s] writing build/number_pubsub/number_pubsub.egg-info/PKG-INFO
+[0.616s] writing dependency_links to build/number_pubsub/number_pubsub.egg-info/dependency_links.txt
+[0.616s] writing entry points to build/number_pubsub/number_pubsub.egg-info/entry_points.txt
+[0.616s] writing requirements to build/number_pubsub/number_pubsub.egg-info/requires.txt
+[0.616s] writing top-level names to build/number_pubsub/number_pubsub.egg-info/top_level.txt
+[0.616s] writing manifest file 'build/number_pubsub/number_pubsub.egg-info/SOURCES.txt'
+[0.617s] reading manifest file 'build/number_pubsub/number_pubsub.egg-info/SOURCES.txt'
+[0.617s] writing manifest file 'build/number_pubsub/number_pubsub.egg-info/SOURCES.txt'
+[0.617s] running build
+[0.617s] running build_py
+[0.617s] creating /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build
+[0.617s] creating /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib
+[0.617s] creating /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub
+[0.617s] copying number_pubsub/even_odd_subscriber.py -> /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub
+[0.618s] copying number_pubsub/random_number_publisher.py -> /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub
+[0.618s] copying number_pubsub/__init__.py -> /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub
+[0.618s] running install
+[0.618s] running install_lib
+[0.618s] creating /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub
+[0.618s] copying /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub/even_odd_subscriber.py -> /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub
+[0.618s] copying /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub/random_number_publisher.py -> /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub
+[0.619s] copying /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build/lib/number_pubsub/__init__.py -> /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub
+[0.619s] byte-compiling /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub/even_odd_subscriber.py to even_odd_subscriber.cpython-310.pyc
+[0.619s] byte-compiling /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub/random_number_publisher.py to random_number_publisher.cpython-310.pyc
+[0.619s] byte-compiling /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.620s] running install_data
+[0.620s] creating /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/share/ament_index
+[0.620s] creating /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/share/ament_index/resource_index
+[0.620s] creating /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/share/ament_index/resource_index/packages
+[0.620s] copying resource/number_pubsub -> /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/share/ament_index/resource_index/packages
+[0.620s] copying package.xml -> /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/share/number_pubsub
+[0.620s] running install_egg_info
+[0.621s] Copying build/number_pubsub/number_pubsub.egg-info to /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages/number_pubsub-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.636s] Installing even_odd_subscriber script to /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/number_pubsub
+[0.636s] Installing random_publisher script to /home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/number_pubsub
+[0.636s] writing list of installed files to '/home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/install.log'
+[0.655s] Invoked command in '/home/parthip/ros2_ws/src/number_pubsub' returned '0': PYTHONPATH=/home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parthip/ros2_ws/src/number_pubsub/install/number_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/number_pubsub build --build-base /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/build install --record /home/parthip/ros2_ws/src/number_pubsub/build/number_pubsub/install.log --single-version-externally-managed install_data

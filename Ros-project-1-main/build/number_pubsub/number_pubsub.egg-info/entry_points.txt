@@ -1,0 +1,4 @@
+[console_scripts]
+even_odd_subscriber = number_pubsub.even_odd_subscriber:main
+random_publisher = number_pubsub.random_number_publisher:main
+
